@@ -24,6 +24,7 @@ return require('packer').startup(function(use)
   -- code completion
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
+  use 'L3MON4D3/LuaSnip'
   -- lsp
   use {
     "williamboman/mason.nvim",
