@@ -34,7 +34,8 @@ return require('packer').startup(function(use)
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
-  -- prettier
+  use "folke/trouble.nvim"
+    -- prettier
   use('MunifTanjim/prettier.nvim')
   use('jose-elias-alvarez/null-ls.nvim')
   -- telescope / fuzzy finder etc
