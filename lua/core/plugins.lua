@@ -12,6 +12,7 @@ end
 local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
+  use "glepnir/dashboard-nvim"
   use 'Pocco81/auto-save.nvim'
   use 'tpope/vim-surround'
   use 'wbthomason/packer.nvim'
