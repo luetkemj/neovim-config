@@ -184,6 +184,11 @@ _G.packer_plugins = {
     path = "/Users/markluetke/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
   },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/Users/markluetke/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://github.com/tpope/vim-commentary"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/markluetke/.local/share/nvim/site/pack/packer/start/vim-surround",
