@@ -18,6 +18,11 @@ o.shiftwidth = 4
 o.shiftround = true
 o.expandtab = true
 
+-- You will likely want to reduce updatetime which affects CursorHold
+-- note: this setting is global and should be set only once
+o.updatetime = 50
+-- vim.cmd [[autocmd! CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]
+
 local opts = { noremap = true, silent = true }
 local k = vim.api.nvim_set_keymap
 

@@ -189,6 +189,11 @@ _G.packer_plugins = {
     path = "/Users/markluetke/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
   },
+  ["vim-css-color"] = {
+    loaded = true,
+    path = "/Users/markluetke/.local/share/nvim/site/pack/packer/start/vim-css-color",
+    url = "https://github.com/ap/vim-css-color"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/markluetke/.local/share/nvim/site/pack/packer/start/vim-surround",
